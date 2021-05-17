@@ -1,0 +1,43 @@
+The output of: pwd : is
+>>>>>>>>>>>>>>>
+/home/osc/eecs3221/a01
+<<<<<<<<<<<<<<<
+The output of: ls -l -a -F : is
+>>>>>>>>>>>>>>>
+total 40
+drwxrwxr-x 2 osc osc  4096 May 13 21:51 ./
+drwxrwxr-x 3 osc osc  4096 May 13 21:50 ../
+-rwxrwxr-x 1 osc osc 17824 May 13 21:50 Assignment_1*
+-rw-rw-r-- 1 osc osc   153 May 11 23:34 makefile
+-rw-rw-r-- 1 osc osc    49 Feb  1 13:01 sample_in.txt
+-rw-rw-r-- 1 osc osc     0 May 13 21:51 sample_out.txt
+-rw-rw-r-- 1 osc osc  2699 Jan 29 19:32 sampleSol_a01.c
+<<<<<<<<<<<<<<<
+The output of: ps : is
+>>>>>>>>>>>>>>>
+  PID TTY          TIME CMD
+ 1151 tty1     00:00:00 bash
+ 1220 tty1     00:00:00 Assignment_1
+ 1224 tty1     00:00:00 ps
+<<<<<<<<<<<<<<<
+The output of: pwd -L -P : is
+>>>>>>>>>>>>>>>
+/home/osc/eecs3221/a01
+<<<<<<<<<<<<<<<
+The output of: ls : is
+>>>>>>>>>>>>>>>
+Assignment_1
+makefile
+sample_in.txt
+sample_out.txt
+sampleSol_a01.c
+<<<<<<<<<<<<<<<
+The output of: cat makefile : is
+>>>>>>>>>>>>>>>
+# Do not edit the contents of this file.
+warnings_BAD: *.c
+	gcc -Werror -Wall -g -std=gnu99 -o Assignment_1 *.c -lrt
+	
+clean: *.c
+	rm Assignment_1
+<<<<<<<<<<<<<<<

@@ -1,0 +1,5 @@
+void writeOuput(char* command, char* output)
+{
+	printf("The output of: %s : is\n", command);
+	printf(">>>>>>>>>>>>>>>\n%s<<<<<<<<<<<<<<<\n", output);	
+}

@@ -1,0 +1,14 @@
+$ indicates a command line prompt. Do not copy it when running the following material.
+
+So in the same folder as your .c file to compile, run the following command
+$ make
+
+If successful (ie gcc didn't complain) you should now have a file name Assignment_1 (with no file extension)
+
+Try running
+$./Assignment_1
+and see what happens. It should fail with an appropriate error message as this assignment requires an input file from the command line
+
+To run it properly use
+$./Assignment_1 sample_in.txt
+
